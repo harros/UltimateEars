@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "helv";
+    src: url("../fonts/HelveticaNeue.ttf") format("opentype");
+
+}
+body
+{
+    width: 800px;
+    margin: 0px;
+    font-family: "helv", Helvetica, sans-serif;
+    background-color: black;
+}
+
+body {
+
+}
+#page1
+{
+    position:relative;
+    width: 800px;
+    height: 1060px;
+    background: url(../images/page1.png) no-repeat;
+    display:none;
+
+}
+#page1_button_holder
+{
+    position: absolute;
+    left:0px;
+    top:950px;
+
+    width: 100%;
+    height: 39px;
+    z-index: 2;
+}
+#page1_button
+{
+
+    position: relative;
+    width:140px;
+    height:39px;
+
+    background: url(../images/page1_learnmore.png) no-repeat;
+
+    cursor: pointer;
+}
+#main
+{
+
+    position: relative;
+    width: 800px;
+    height:4516px;
+    background: url(../images/mainpage.png) no-repeat;
+    display: none;
+}
+#products_names_holder
+{
+    position: absolute;
+    top:1703px;
+    left:0px;
+    width: 800px;
+    z-index:3;
+    font-weight: bold;
+    font-size:14px;
+}
+#product1
+{
+    position:absolute;
+
+    left:14px;
+    width: 130px;
+    height: 70px;
+    text-align:center;
+
+
+}
+#product2
+{
+    position:absolute;
+
+    left:160px;
+    width: 130px;
+    height: 70px;
+    text-align:center;
+
+
+}
+#product3
+{
+    position:absolute;
+
+    left:327px;
+    width: 130px;
+    height: 70px;
+    text-align:center;
+}
+#product4
+{
+    position:absolute;
+
+    left:494px;
+    width: 130px;
+    height: 70px;
+    text-align:center;
+}
+#product5
+{
+    position:absolute;
+
+
+    left:643px;
+    width: 130px;
+    height: 70px;
+    text-align:center;
+}
+#product5 > .sup
+{
+    font-size:8px;
+    vertical-align: super;
+}
+#main_video
+{
+    position:absolute;
+    left:0px;
+    top:3456px;
+    width:800px;
+    height:1066px;
+
+    z-index: 3;
+}
+#main_menu
+{
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:200px;
+    height: 140px;
+    display: none;
+    z-index:10;
+}
+.main_menu1
+{
+
+    background: url(../images/menu1.png);
+}
+.main_menu2
+{
+
+    background: url(../images/menu2.png);
+}
+.main_menu3
+{
+
+    background: url(../images/menu3.png);
+}
+.main_menu4
+{
+
+    background: url(../images/menu4.png);
+}
+.main_menu5
+{
+
+    background: url(../images/menu5.png);
+}
+
+
+#preloader
+{
+    width:0px;
+    height:0px;
+    background-image: url(../images/mainpage.png),url(../images/menu1.png),url(../images/menu2.png),url(../images/menu3.png),url(../images/menu4.png),url(../images/menu5.png);
+}
+
+.review_a
+{
+    font-size: 29px;
+    display:none;
+}
+.review_b
+{
+    margin-top: 4px;
+    font-size: 18px;
+    display:none;
+}
+
+#review1_holder
+{
+    position:absolute;
+    font-size:20px;
+    top:2731px;
+    left:0px;
+    width:800px;
+    height:30px;
+    text-align:center;
+
+
+
+}
+#review1_holder span {
+    position: relative;
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+}
+#review2_holder
+{
+    position:absolute;
+
+    font-size:20px;
+    top:2861px;
+    left:0px;
+    width:800px;
+    height:30px;
+    text-align:center;
+
+
+}
+#review2_holder span {
+    position: relative;
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+}
+#review3_holder
+{
+    position:absolute;
+
+    font-size:20px;
+    top:3030px;
+    left:0px;
+    width:800px;
+    height:30px;
+    text-align:center;
+
+
+}
+#review3_holder span {
+    position: relative;
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+}
+#review4_holder
+{
+    position:absolute;
+
+    font-size:20px;
+    top:3182px;
+    left:0px;
+    width:800px;
+    height:30px;
+    text-align:center;
+
+
+}
+#review4_holder span {
+    position: relative;
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+}
+#review5_holder
+{
+    position:absolute;
+
+    font-size:20px;
+    top:3298px;
+    left:0px;
+    width:800px;
+    height:30px;
+    text-align:center;
+
+
+}
+#review5_holder span {
+    position: relative;
+    display:inline-block;
+    -webkit-font-smoothing:antialiased;
+}
+
+
+#product_video_holder
+{
+    position: fixed;
+    width:800px
+    height:1067px;
+    left: 0px;
+    top: 0px;
+    background-color:rgba(0, 0, 0, 0.2);
+    z-index:100;
+    display: none;
+}
+#product_video_close
+{
+    position:absolute;
+    left:749px;
+    top:0px;
+    width:50px;
+    height:50px;
+    z-index:150;
+    background-image: url('../images/close.png');
+}
